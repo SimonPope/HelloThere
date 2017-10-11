@@ -14,7 +14,7 @@ public class Window extends JFrame implements MouseListener {
 
 	public Window() {
 		super("Hello there!");
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 
 		JPanel panel = new JPanel(new FlowLayout(FlowLayout.CENTER, 20, 30));
 		getContentPane().add(panel);
